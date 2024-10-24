@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Travel Log - Sabrina Aurellia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            padding: 20px;
+        }
+        #registration {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .photo-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .photo {
+            flex: 1 1 30%;
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Food & Travel Log</h1>
+        <p>Profile of Sabrina Aurellia</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is <strong>Sabrina Aurellia</strong>. I am passionate about cooking, hiking, reading, watching movies, and travelling. I have interests in the environment and wellness.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>I have experience in the following roles:</p>
+        <ul>
+            <li>Auditor</li>
+            <li>Salesperson</li>
+            <li>Tax Accountant</li>
+        </ul>
+    </section>
+
+    <section id="learning">
+        <h2>Currently Learning</h2>
+        <p>I am currently learning <strong>Software Engineering (Full Stack)</strong> and <strong>Sales Marketing</strong>.</p>
+    </section>
+
+    <section id="registration">
+        <h2>Register to Join My Food & Travel Log</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a Password" required>
+
+            <label for="interests">Interests:</label>
+            <textarea id="interests" name="interests" placeholder="Share your interests..." rows="4"></textarea>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <section id="photos">
+        <h2>Travel Pictures</h2>
+        <div class="photo-gallery">
+            <div class="photo">
+                <h3>Hong Kong</h3>
+                <img src="hongkong.jpg" alt="Hong Kong">
+            </div>
+            <div class="photo">
+                <h3>Macau</h3>
+                <img src="macau.jpg" alt="Macau">
+            </div>
+            <div class="photo">
+                <h3>Singapore</h3>
+                <img src="singapore.jpg" alt="Singapore">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sabrina Aurellia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
