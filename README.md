@@ -24,10 +24,10 @@ To get started with this project, clone the repository:
 git clone https://github.com/revou-fsse-oct24/module-1-sabrinaurellia.git
 
 cd module-1-sabrinaurellia
-
+```
 Open `ìndex.html` to view the site.
 
-**## Usage**
+## Usage
 - Register: Fill out the registration form to create an account.
 - Browse Products: Explore the product gallery to view available items.
 - Order: Select items to request through DM/WA, with admin fees applicable.
