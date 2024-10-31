@@ -16,6 +16,19 @@
             color: white;
             text-align: center;
             padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
         }
         #intro {
             padding: 20px;
@@ -23,7 +36,7 @@
         }
         .product-gallery {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 15px;
             padding: 20px;
         }
@@ -67,57 +80,63 @@
     <header>
         <h1>Welcome to Serendipia</h1>
         <p>Open PO Directly from Asia</p>
+        <nav>
+            <a href="#intro">Home</a>
+            <a href="#products">Products</a>
+            <a href="registration">Register</a>
+        </nav>
     </header>
 
     <section id="intro">
         <h2>Your One-Stop Shop for Beauty, Fashion, and More!</h2>
+        <p>ETA 7-14 days for your orders</p>
     </section>
 
     <section class="product-gallery">
         <div class="product">
-            <img src="path_to_image1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Description of Product 1.</p>
+            <img src="image1.jpg" alt="Product 1">
+            <h3>Stand Oil Chubby Bag</h3>
+            <p>Rp 1.899.900,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image2.jpg" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Description of Product 2.</p>
+            <img src="image2.jpg" alt="Product 2">
+            <h3>Stand Oil Post Bag</h3>
+            <p>Rp 1.349.900,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image3.jpg" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>Description of Product 3.</p>
+            <img src="image3.jpg" alt="Product 3">
+            <h3>Stand Oil Bubble Bag</h3>
+            <p>Rp 949.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image4.jpg" alt="Product 4">
-            <h3>Product 4</h3>
-            <p>Description of Product 4.</p>
+            <img src="image4.jpg" alt="Product 4">
+            <h3>Labubu Halloween</h3>
+            <p>Rp 2.000.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image5.jpg" alt="Product 5">
-            <h3>Product 5</h3>
-            <p>Description of Product 5.</p>
+            <img src="image5.jpg" alt="Product 5">
+            <h3>Labubu Trick-or-Treater</h3>
+            <p>Rp 850.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image6.jpg" alt="Product 6">
-            <h3>Product 6</h3>
-            <p>Description of Product 6.</p>
+            <img src="image6.jpg" alt="Product 6">
+            <h3>Zimomo The Monster I Found You</h3>
+            <p>Rp 5.500.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image7.jpg" alt="Product 7">
-            <h3>Product 7</h3>
-            <p>Description of Product 7.</p>
+            <img src="image7.jpg" alt="Product 7">
+            <h3>Hirono Le Petit Prince</h3>
+            <p>Rp 250.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image8.jpg" alt="Product 8">
-            <h3>Product 8</h3>
-            <p>Description of Product 8.</p>
+            <img src="image8.jpg" alt="Product 8">
+            <h3>Hirono x Vans</h3>
+            <p>Rp 1.500.000,-</p>
         </div>
         <div class="product">
-            <img src="path_to_image9.jpg" alt="Product 9">
-            <h3>Product 9</h3>
-            <p>Description of Product 9.</p>
+            <img src="image9.jpg" alt="Product 9">
+            <h3>Hirono Panda</h3>
+            <p>Rp 1.200.000,-</p>
         </div>
     </section>
 
