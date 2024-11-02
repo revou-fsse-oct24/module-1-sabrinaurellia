@@ -32,5 +32,7 @@ Open `ìndex.html` to view the site.
 - Browse Products: Explore the product gallery to view available items.
 - Order: Select items to request through DM/WA, with admin fees applicable.
 
+## Deployment
+You can also view the live site here: https://revou-fsse-oct24.github.io/module-1-sabrinaurellia/
 
 
